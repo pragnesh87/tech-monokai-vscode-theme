@@ -1,0 +1,26 @@
+{
+    "name": "tech-monokai",
+    "displayName": "tech-monokai",
+    "description": "Tech Monokai",
+    "publisher": "TechArtisan",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Monokai Theme",
+        "Monokai vscode Theme",
+        "Monokai Dark Theme"
+    ],
+    "license": "MIT",
+    "contributes": {
+        "themes": [{
+            "label": "Tech Monokai",
+            "uiTheme": "vs-dark",
+            "path": "./themes/TechMonokai-color-theme.json"
+        }]
+    }
+}
